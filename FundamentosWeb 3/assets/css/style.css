@@ -1,4 +1,10 @@
 /*Estilos da página index.html*/
+
+.body {
+   background-color: #a76161;
+}
+
+
 .center {
    text-align: center;
 }
@@ -22,7 +28,7 @@
 
 #menu li a {
    text-decoration: none;
-   color: #546de5;
+   color: #860202;
    font-size: 20px;
 }
 
