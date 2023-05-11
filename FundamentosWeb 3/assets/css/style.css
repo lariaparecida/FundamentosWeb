@@ -1,7 +1,12 @@
 /*Estilos da página index.html*/
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+.fonttype {
+   font-family: 'Times New Roman', Times, serif;
+}
 .body {
-   background-color: black;
+   background-color: #999999;
 }
 
 .center {
