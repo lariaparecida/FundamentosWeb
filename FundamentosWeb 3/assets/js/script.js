@@ -34,7 +34,7 @@ let nomeOk = false
 let emailOk = false
 let assuntoOk = false
 
-/* varivel do mapa */
+/* variável do mapa */
 let mapa = document.querySelector('#mapa')
 
 /*usamos o function para inserir os blocos de códigos */
@@ -72,11 +72,15 @@ function validaEmail() {
 
 function validaAssunto() {
    let txtAssunto = document.querySelector('#txtAssunto')
+   let assunto = document.querySelector('#assunto')//
+   let assuntoOk = false;//
 
    if (assunto.value.length >= 100) {
       txtAssunto.innerHTML = 'Texto é muito grande, digite no máximo 100 caracteres'
       txtAssunto.style.color = 'red'
       txtAssunto.style.display = 'block'
+      assunto.value = assunto.value.substring(0, 100);//
+      assuntoOk = false;//
    } else {
       txtAssunto.style.display = 'none'
       assuntoOk = true
