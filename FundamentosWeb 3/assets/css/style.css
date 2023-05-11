@@ -1,19 +1,22 @@
 /*Estilos da página index.html*/
 
 .body {
-   background-color: #a76161;
+   background-color: black;
 }
-
 
 .center {
    text-align: center;
 }
 
+.tituloscor {
+   color: antiquewhite;
+}
 .justify{
    text-align: justify;
 }
 
 .container {
+   color: antiquewhite;
    display: flex;
    flex-flow: row;
    justify-content: center;
@@ -33,7 +36,7 @@
 }
 
 #menu li a:hover {
-   color: grey;
+   color: antiquewhite;
 }
 
 .p-30 {
